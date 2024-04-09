@@ -11,7 +11,7 @@ public class Chrome {
     private ChromeOptions chromeOptions;
 
     private Chrome() {
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver22.exe");
         chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--start-maximized --ignore-certificate-errors --disable-download-notification --disable-popup-blocking --lang=es");
         driver = new ChromeDriver(chromeOptions);
