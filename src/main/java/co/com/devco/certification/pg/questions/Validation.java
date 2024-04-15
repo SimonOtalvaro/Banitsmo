@@ -21,7 +21,7 @@ public class Validation implements Question {
 
         );
 
-        if (Ensure.that(url).equals(url2)){
+        if ((url).equals(url2)){
             return true;
         }else{
             return false;

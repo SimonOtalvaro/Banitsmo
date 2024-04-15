@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Validate in the bancolombia page that the document of virtual inversion is the correct one" skipped="0" tests="1" time="17.18" timestamp="2024-04-08 11:37:02"><testcase name="As an user I need to validate that the document of virtual inversion is the correct one"><failure message="&#10;Expecting a string that is equal to: &lt;&quot;https://www.bancolombia.com/wcm/connect/www.bancolombia.com-26918/182d05c8-d942-42ca-9b3d-ddd0fe8772fe/Reglamento+Inversi%C3%B3n+Virtual.pdf?MOD=AJPERES&amp;CVID=nPHYsMT&quot;&gt;&#10;But got............................: &lt;&quot;https://www.bancolombia.com/personas/productos-servicios/inversiones/cdts/inversion-virtual/simulador-inversion-virtual&quot;&gt;" type="java.lang.AssertionError">
-Expecting a string that is equal to: &lt;"https://www.bancolombia.com/wcm/connect/www.bancolombia.com-26918/182d05c8-d942-42ca-9b3d-ddd0fe8772fe/Reglamento+Inversi%C3%B3n+Virtual.pdf?MOD=AJPERES&amp;CVID=nPHYsMT"&gt;
-But got............................: &lt;"https://www.bancolombia.com/personas/productos-servicios/inversiones/cdts/inversion-virtual/simulador-inversion-virtual"&gt;</failure><system-err>
-Expecting a string that is equal to: &lt;"https://www.bancolombia.com/wcm/connect/www.bancolombia.com-26918/182d05c8-d942-42ca-9b3d-ddd0fe8772fe/Reglamento+Inversi%C3%B3n+Virtual.pdf?MOD=AJPERES&amp;CVID=nPHYsMT"&gt;
-But got............................: &lt;"https://www.bancolombia.com/personas/productos-servicios/inversiones/cdts/inversion-virtual/simulador-inversion-virtual"&gt;&#13;
-co.com.devco.certification.pg.questions.Validation.answeredBy(Validation.java:19)&#13;
-co.com.devco.certification.pg.stepdefinitions.PruebaXStepDefinitions.theUserSeeTheCorrectPDF(PruebaXStepDefinitions.java:35)&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
-worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Validate in the bancolombia page that the document of virtual inversion is the correct one" skipped="0" tests="1" time="18.41" timestamp="2024-04-15 12:09:22"><testcase name="As an user I need to validate that the document of virtual inversion is the correct one"/></testsuite>

@@ -12,6 +12,8 @@ import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actors.Cast;
 import net.serenitybdd.screenplay.actors.OnStage;
 
+import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
+
 
 public class PruebaXStepDefinitions {
 
@@ -27,12 +29,12 @@ public class PruebaXStepDefinitions {
 
     @When("^The user enter in the page to see the documnent$")
     public void theUserEnterInThePageToSeeTheDocumnent() {
-        OnStage.theActorInTheSpotlight().attemptsTo(ValidateDocument.enter());
+       theActorInTheSpotlight().attemptsTo(ValidateDocument.enter());
     }
 
     @Then("^The user see the correct PDF$")
     public void theUserSeeTheCorrectPDF() {
-        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Validation.ok()));
+        theActorInTheSpotlight().should(GivenWhenThen.seeThat(Validation.ok()));
     }
 
 

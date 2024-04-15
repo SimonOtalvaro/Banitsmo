@@ -19,7 +19,7 @@ public class ValidateDocument implements Task {
     public <T extends Actor> void performAs(T actor) {
 
         actor.attemptsTo(
-                WaitUntil.the(BUTTON_PRODUCTS_SERVICES,WebElementStateMatchers.isEnabled()).forNoMoreThan(5).seconds(),
+                WaitUntil.the(BUTTON_PRODUCTS_SERVICES,WebElementStateMatchers.isEnabled()).forNoMoreThan(10).seconds(),
                 Click.on(BUTTON_PRODUCTS_SERVICES),
                 WaitUntil.the(BUTTON_PRODUCTS,WebElementStateMatchers.isEnabled()).forNoMoreThan(5).seconds(),
                 Click.on(BUTTON_PRODUCTS),
@@ -31,6 +31,7 @@ public class ValidateDocument implements Task {
                 ChangeWindows.number()
         );
 
+
         actor.remember("URL",Serenity.getWebdriverManager().getCurrentDriver().getCurrentUrl());
 
 
@@ -39,6 +40,8 @@ public class ValidateDocument implements Task {
     public static ValidateDocument enter(){
         return Tasks.instrumented(ValidateDocument.class);
     }
+
+
 
 
 }
